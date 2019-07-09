@@ -1,0 +1,24 @@
+{
+  "env": {
+    "rollup": {
+      "presets": [
+        [
+          "@babel/env",
+          {
+            "modules": false
+          }
+        ]
+      ],
+      "plugins": [
+        "version"
+      ]
+    },
+    "babel": {
+      "presets": ["@babel/env"],
+      "plugins": [
+        "add-module-exports",
+        "version"
+      ]
+    }
+  }
+}
